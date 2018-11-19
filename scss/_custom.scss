@@ -1,15 +1,10 @@
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 200;
-  @include breakpoint(large up) {
-    font-weight: 400;
-  }
-
+  font-weight: 700;
+  text-transform:uppercase;
 }
 
-//helper for font weight
-//Open+Sans:400,700,800|Raleway:400,200,700
 .font-light {
-  font-weight: 200;
+  font-weight: 300;
 }
 .font-weight-normal {
   font-weight: 400;
@@ -21,19 +16,71 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
-.quiet {
-  font-size: 80%;
-}
-
 .title-bar {
   box-shadow: 0 0 10px rgba(138, 138, 138, 0.3);
-
+/*
   .title-bar-right {
     flex: 2 1 0px;
   }
-
+*/
   .title-bar-title {
     font-weight: 800;
   }
 }
 
+.title-bar {
+  a {
+    text-decoration:none;
+    color:$primary-color;
+  }
+}
+
+section[role=main]{
+  min-height:700px;
+  padding-top:$global-padding * 2;
+}
+
+footer {
+  font-size:$small-font-size;
+  border-top:solid 1px $medium-gray;
+  padding-top:$global-padding;
+  padding-bottom:$global-padding * 2;
+  margin-top:$global-margin * 2;
+}
+
+.label {
+  text-transform:uppercase;
+  border:solid 1px;
+  background:none!important;
+}
+
+.label.in-progress{ 
+  border-color:$primary-color;
+  color:$primary-color;
+}
+
+.label.future{ 
+  border-color:$dark-gray;
+  color:$dark-gray;
+}
+
+
+ul.work {
+  margin-top:$global-padding;
+  border-top:solid 1px $medium-gray;
+  padding-top:0;
+  li{
+    padding-top:$global-padding;
+    border-bottom:solid 1px $medium-gray;
+    h3 {
+      text-transform:none;
+      color:$black;
+      font-family:$body-font-family;
+      span.label {
+        margin-right:3px;
+        position:relative;
+        top:-2px;
+      }
+    }
+  }
+}

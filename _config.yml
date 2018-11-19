@@ -1,13 +1,13 @@
-name : Foundation5/github pages/Jykill starter
-brand : My Project
-description : This is the description of my project
+name : Platform Land
+brand : Platform Land
+description : A project to explore how digital platforms will change government and society
 keyword : 
-url : http://daigofuji.github.io/jekyll-foundation-6-starter/
-email : daigo@daigofujiwara.com
-twitter : DaigoFuji
-github : DaigoFuji
-author : Daigo Fujiwara
-year : 2016
+url : https://platformland.github.io
+email : richard_pope@hks.harvard.edu
+twitter : 
+github : platformland
+author : Richard Pope
+year : 2018
 markdown : kramdown
 exclude :
   - node_modules
