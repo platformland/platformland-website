@@ -41,26 +41,29 @@
         {% include nav.html %}
       </div>
       <button class="close-button" aria-label="Close menu" type="button" data-close>
-        <i class="fas fa-times fa-xs"></i>
       </button>
     </div><!-- end .off-canvas -->
 
     <div class="off-canvas-content" data-off-canvas-content>
-
       <div class="title-bar">
-        <div class="title-bar-left">
-          <h4 class="title-bar-title font-heavy mas">
+       <div class="title-bar-left">
+          <h3 class="title-bar-title">
             <a href="/">
               {{ site.brand }}
             </a>
-          </h4>
+            <a class="cover" aria-hidden="true"></a>
+          </h3>
         </div>
-        <div class="title-bar-right mts">
-          <div class="show-for-medium menu align-right simple quiet">
+        <div class="title-bar-right">
+          <div class="show-for-medium menu align-right">
             {% include nav.html %}
           </div>
-          <ul class="hide-for-medium menu align-right simple">
-            <li><button class="secondary button" data-toggle="offCanvas" type="button"><i aria-hidden="true" class="fas fa-bars"></i> MENU</button></li>
+          <ul class="hide-for-medium menu align-right">
+            <li>
+              <button class="button small" data-toggle="offCanvas" type="button">
+                MENU
+              </button>
+            </li>
           </ul>
         </div>
       </div>
@@ -73,7 +76,7 @@
         <div class="grid-x grid-margin-x">
           <div class="medium-8 cell">
             <p>
-              Platform Land is a project led by <a href="https://www.memespring.co.uk">Richard Pope</a>, a senior fellow at the Harvard Kennedy School <a href="https://projects.iq.harvard.edu/digitalhks">digitalHKS Center</a>.
+            Platform Land is a project led by <a href="https://www.memespring.co.uk">Richard Pope</a>, a senior fellow at the Harvard Kennedy School <a href="https://projects.iq.harvard.edu/digitalhks">digitalHKS Center</a>. To get in touch, please email <a href="mailto:richard_pope@hks.harvard.edu">richard_pope@hks.harvard.edu</a>.
             </p>
             <img src="/images/hks.png" alt="Digital HKS logo" width="150px"/>
           </div>
