@@ -46,14 +46,15 @@
 
     <div class="off-canvas-content" data-off-canvas-content>
       <div class="title-bar">
-       <div class="title-bar-left">
-          <h3 class="title-bar-title">
-            <a href="/">
-              {{ site.brand }}
-            </a>
-            <a class="cover" aria-hidden="true"></a>
-          </h3>
-        </div>
+        {% if page.url != "/" %}
+         <div class="title-bar-left">
+            <h3 class="title-bar-title">
+              <a href="/">
+                {{ site.brand }}
+              </a>
+            </h3>
+          </div>
+        {% endif %}
         <div class="title-bar-right">
           <div class="show-for-medium menu align-right">
             {% include nav.html %}
@@ -68,10 +69,8 @@
         </div>
       </div>
       
-      <div class="grid-container">
-
-        {{ content }}
-        
+      {{ content }}
+    
       <footer class="grid-container">
         <div class="grid-x grid-margin-x">
           <div class="medium-8 cell">
@@ -88,7 +87,6 @@
         </div>
       </footer>
 
-    </div><!-- end .grid-container -->
   </div><!-- end .off-canvas-content -->
     <!-- Loading JavaScripts
     ================================================== -->
