@@ -2,7 +2,11 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   text-transform:uppercase;
 }
-
+ul.menu {
+  a {
+    text-decoration:underline;
+  }
+}
 .title-bar {
   background-color:$primary-color;
   .title-bar-title {
@@ -44,18 +48,18 @@ div#intro {
   padding-bottom:$global-padding * 3;
   background:$primary-color;
   position:relative;
-  top:-20px;
   h1 {
     color:#fff;
-    width:50%;
-    font-size:40px
+    font-size:35px;
+    width:80%;
   }
   h2 {
     font-family:$body-font-family;
     text-transform:none;
     color:#fff;
     font-weight:normal;
-    font-size:23px;
+    font-size:100%;
+    width:80%;
   }
   img {
     width:60%;
@@ -67,6 +71,9 @@ div#intro {
 
 @media screen and (min-width: 40em) {
   div#intro {
+    h1 {
+      font-size: 60px;
+    }
     h2 {
       font-size:28px;
     }
@@ -74,7 +81,7 @@ div#intro {
 }
 
 section[role=main]{
-  min-height:700px;
+  min-height:500px;
   padding-top:$global-padding * 2;
   padding-bottom:$global-padding * 4;
 }
@@ -85,6 +92,15 @@ footer {
   padding-top:$global-padding;
   padding-bottom:$global-padding * 2;
   margin-top:$global-margin * 2;
+  img {
+    padding-bottom:$global-padding;
+    float:left;
+  }
+  .nav {
+    a {
+      text-decoration:underline;
+    }
+  }
 }
 
 .label {
