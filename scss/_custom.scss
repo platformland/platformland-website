@@ -109,6 +109,10 @@ footer {
   background:none!important;
   font-weight:bold;
 }
+.label.live{ 
+  border-color:$success-color;
+  color:$success-color;
+}       
 
 .label.in-progress{ 
   border-color:$primary-color;
