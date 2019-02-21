@@ -9,6 +9,7 @@ github : platformland
 author : Richard Pope
 year : 2018
 markdown : kramdown
+destination : docs
 exclude :
   - node_modules
 
