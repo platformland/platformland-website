@@ -11,3 +11,6 @@ year : 2018
 markdown : kramdown
 exclude :
   - node_modules
+
+plugins :
+  - jekyll-scholar
