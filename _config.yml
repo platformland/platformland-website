@@ -12,5 +12,4 @@ markdown : kramdown
 exclude :
   - node_modules
 
-plugins :
-  - jekyll-scholar
+plugins: ['jekyll/scholar']
