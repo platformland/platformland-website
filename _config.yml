@@ -12,5 +12,9 @@ markdown : kramdown
 destination : docs
 exclude :
   - node_modules
-
+scholar:
+  bibliography_template: bibliography
+  source: bibliography
+  style: chicago-annotated-bibliography
+  sort_by: title
 plugins: ['jekyll/scholar']
