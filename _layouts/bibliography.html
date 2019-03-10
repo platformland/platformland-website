@@ -1,5 +1,10 @@
 <strong><a href="{{entry.url}}">{{entry.title}}</a></strong>
 <br/>
-{{entry.author}},
-<em>{{entry.journal}}{{entry.publisher}}</em>, {{entry.year}}
+{% if entry.author %}
+  {{entry.author}},
+{% endif %}
+{% if entry.journal or entry.publisher %}
+<em>{{entry.journal}}{{entry.publisher}}</em>,
+{% endif %}
+{{entry.year}}
 

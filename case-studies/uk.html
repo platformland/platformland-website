@@ -1,0 +1,54 @@
+---
+layout: default
+title: Experiments
+description: 
+keywords: 
+---
+<div class="grid-container">
+  <section role="main" class="grid-x">
+    <div class="medium-12 large-12 cell">
+ 
+      <h3>Timeline</h3>
+      <!-- http://timeline.knightlab.com/docs/instantiate-a-timeline.html -->
+     <!-- 1 -->
+      <link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+
+      <!-- 2 -->
+      <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+
+      <div id='timeline-embed' style="width: 100%; height: 600px"></div>
+
+      <!-- 3 -->
+      <script type="text/javascript">
+      data = {}
+      timeline = new TL.Timeline('timeline-embed',
+                      'https://docs.google.com/spreadsheets/d/1faTAQLRD5VyBuH2uU84WWSOQTuC5KM9sXcJ7X-nzWDI/pubhtml');
+      </script>
+    </div>
+
+    <div class="medium-10 large-12 cell">
+      <h3>Common platforms</h3>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Notes</th>
+        </tr>
+        {% for platform in site.data.common-platforms %}
+          {% if platform.IsoCountryCode == 'GB'%}
+          <tr>
+            <td>
+              {% if platform.HomepageUrl %}
+                <a href="{{platform.HomepageUrl}}">{{platform.Name}}</a>
+              {% else %}
+                {{platform.Name}}
+              {% endif %}
+            </td>
+            <td>{{platform.Notes}}
+          </tr>
+          {% endif %}
+        {% endfor %}
+      </table>
+    </div>
+  </section>
+</div>
+
