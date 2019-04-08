@@ -27,6 +27,12 @@ ul.menu {
     text-decoration:underline;
     color:#fff;
   }
+  #menubutton {
+    position:absolute;
+    top:$global-margin;
+    right:$global-margin;
+  }
+
   .button {
     border:solid 1px #fff;
   }
