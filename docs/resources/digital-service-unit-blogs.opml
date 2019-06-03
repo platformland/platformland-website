@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Digital service unit blogs</title>
+    </head>
+    <body>
+        <outline text="Digital service units" title="Digital service units">
+            <outline type="rss" text="Government Digital Service" title="Government Digital Service" xmlUrl="http://digital.cabinetoffice.gov.uk/feed/" htmlUrl="https://gds.blog.gov.uk"/>
+            <outline type="rss" text="e-Estonia" title="e-Estonia" xmlUrl="https://e-estonia.com/feed/" htmlUrl="https://e-estonia.com"/>
+            <outline type="rss" text="DVLA digital services blog" title="DVLA digital services blog" xmlUrl="https://dvladigital.blog.gov.uk/feed/atom/" htmlUrl="https://dvladigital.blog.gov.uk"/>
+            <outline type="rss" text="Canadian Digital Service" title="Canadian Digital Service" xmlUrl="https://digital.canada.ca/feed.xml" htmlUrl="https://digital.canada.ca/blog/"/>
+            <outline type="rss" text="Mass.Gov Blog" title="Mass.Gov Blog" xmlUrl="http://blog.mass.gov/feed/" htmlUrl="http://blog.mass.gov"/>
+            <outline type="rss" text="BEIS Digital" title="BEIS Digital" xmlUrl="http://discuss.bis.gov.uk/bisdigital/feed/" htmlUrl="https://beisdigital.blog.gov.uk"/>
+            <outline type="rss" text="DVSA digital" title="DVSA digital" xmlUrl="https://dvsadigital.blog.gov.uk/feed/" htmlUrl="https://dvsadigital.blog.gov.uk"/>
+            <outline type="rss" text="Technology in government" title="Technology in government" xmlUrl="https://gdstechnology.blog.gov.uk/feed/atom/" htmlUrl="https://technology.blog.gov.uk"/>
+            <outline type="rss" text="ESFA Digital" title="ESFA Digital" xmlUrl="https://sfadigital.blog.gov.uk/feed/" htmlUrl="https://sfadigital.blog.gov.uk"/>
+            <outline type="rss" text="Ontario Digital - Medium" title="Ontario Digital - Medium" xmlUrl="https://medium.com/feed/ontariodigital" htmlUrl="https://medium.com/ontariodigital?source=rss----22d62132c570---4"/>
+            <outline type="rss" text="Digital health and social care" title="Digital health and social care" xmlUrl="http://hale.dh.gov.uk/feed/" htmlUrl="https://digitalhealth.blog.gov.uk"/>
+            <outline type="rss" text="HMRC digital" title="HMRC digital" xmlUrl="https://hmrcdigital.blog.gov.uk/feed/atom/" htmlUrl="https://hmrcdigital.blog.gov.uk"/>
+            <outline type="rss" text="MOJ Digital &amp; Technology" title="MOJ Digital &amp; Technology" xmlUrl="http://blogs.justice.gov.uk/digital/feed/" htmlUrl="https://mojdigital.blog.gov.uk"/>
+            <outline type="rss" text="MHCLG Digital" title="MHCLG Digital" xmlUrl="https://mhclgdigital.blog.gov.uk/feed/" htmlUrl="https://mhclgdigital.blog.gov.uk"/>
+            <outline type="rss" text="Digital trade" title="Digital trade" xmlUrl="https://digitaltrade.blog.gov.uk/feed/" htmlUrl="https://digitaltrade.blog.gov.uk"/>
+            <outline type="rss" text="18F: Digital service delivery" title="18F: Digital service delivery" xmlUrl="https://18f.gsa.gov/feed.xml" htmlUrl="https://18f.gsa.gov/"/>
+            <outline type="rss" text="DfE Digital and Transformation" title="DfE Digital and Transformation" xmlUrl="https://dfedigital.blog.gov.uk/feed/" htmlUrl="https://dfedigital.blog.gov.uk"/>
+            <outline type="rss" text="DWP Digital" title="DWP Digital" xmlUrl="https://dwpdigital.blog.gov.uk/feed/atom/" htmlUrl="https://dwpdigital.blog.gov.uk"/>
+            <outline type="rss" text="Government as a Platform" title="Government as a Platform" xmlUrl="https://governmentasaplatform.blog.gov.uk/feed/atom/" htmlUrl="https://governmentasaplatform.blog.gov.uk"/>
+            <outline type="rss" text="Department for Transport digital" title="Department for Transport digital" xmlUrl="https://dftdigital.blog.gov.uk/feed/" htmlUrl="https://dftdigital.blog.gov.uk"/>
+            <outline type="rss" text="Defra digital" title="Defra digital" xmlUrl="https://defradigital.blog.gov.uk/feed/atom/" htmlUrl="https://defradigital.blog.gov.uk"/>
+            <outline type="rss" text="United States Digital Service" title="United States Digital Service" xmlUrl="https://www.usds.gov/feed.xml" htmlUrl="https://www.usds.gov/"/>
+            <outline type="rss" text="Home Office Digital, Data and Technology" title="Home Office Digital, Data and Technology" xmlUrl="https://hodigital.blog.gov.uk/feed/atom/" htmlUrl="https://hodigital.blog.gov.uk"/>
+            <outline type="rss" text="Inside GOV.UK" title="Inside GOV.UK" xmlUrl="https://insidegovuk.blog.gov.uk/feed/atom/" htmlUrl="https://insidegovuk.blog.gov.uk"/>
+        </outline>
+    </body>
+</opml>
