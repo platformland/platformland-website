@@ -30,5 +30,13 @@
             <outline type="rss" text="Home Office Digital, Data and Technology" title="Home Office Digital, Data and Technology" xmlUrl="https://hodigital.blog.gov.uk/feed/atom/" htmlUrl="https://hodigital.blog.gov.uk"/>
             <outline type="rss" text="Inside GOV.UK" title="Inside GOV.UK" xmlUrl="https://insidegovuk.blog.gov.uk/feed/atom/" htmlUrl="https://insidegovuk.blog.gov.uk"/>
         </outline>
+        <outline type="rss" text="Government Technology" title="Government technology" xmlUrl="https://governmenttechnology.blog.gov.uk/feed/" htmlUrl="https://governmenttechnology.blog.gov.uk"/>
+        <outline type="rss" text="Digital Marketplace" title="Digital Marketplace" xmlUrl="https://digitalmarketplace.blog.gov.uk/feed/" htmlUrl="https://digitalmarketplace.blog.gov.uk"/>
+        <outline type="rss" text="Identity Assurance" title="Identity Assurance" xmlUrl="https://identityassurance.blog.gov.uk/feed/" htmlUrl="https://identityassurance.blog.gov.uk"/>
+        <outline type="rss" text="Digital health and social care" title="Digital health and social care" xmlUrl="https://digitalhealth.blog.gov.uk/feed/" htmlUrl="https://digitalhealth.blog.gov.uk"/>
+        <outline type="rss" text="GDS data" title="GDS data" xmlUrl="https://gdsdata.blog.gov.uk/feed/" htmlUrl="https://gdsdata.blog.gov.uk"/>
+        <outline type="rss" text="Digital people" title="Digital people" xmlUrl="https://digitalpeople.blog.gov.uk/feed/" htmlUrl="https://digitalpeople.blog.gov.uk"/>
+        <outline type="rss" text="HackIT" title="HackIT" xmlUrl="https://blogs.hackney.gov.uk/hackit/feed/" htmlUrl="https://blogs.hackney.gov.uk/hackit"/>
+        <outline type="rss" text="HackIT" title="HackIT" xmlUrl="https://blogs.hackney.gov.uk/hackit/feed/" htmlUrl="https://blogs.hackney.gov.uk/hackit"/>
     </body>
 </opml>
